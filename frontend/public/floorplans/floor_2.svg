@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <style>
+    .room { fill: #EFF6FF; stroke: #93C5FD; stroke-width: 2; }
+    .lab { fill: #F5F3FF; stroke: #A78BFA; stroke-width: 2; }
+    .corridor { fill: #F0FDF4; stroke: #86EFAC; stroke-width: 1.5; }
+    .stair { fill: #FEF3C7; stroke: #FCD34D; stroke-width: 2; }
+    .office { fill: #FFF7ED; stroke: #FDBA74; stroke-width: 2; }
+    .label { font-family: sans-serif; font-size: 14px; fill: #1E40AF; text-anchor: middle; dominant-baseline: middle; font-weight: 600; }
+    .sublabel { font-family: sans-serif; font-size: 11px; fill: #6B7280; text-anchor: middle; dominant-baseline: middle; }
+    .floor-label { font-family: sans-serif; font-size: 20px; fill: #1D4ED8; font-weight: bold; }
+    .outer-wall { fill: none; stroke: #1E3A5F; stroke-width: 6; }
+  </style>
+  <rect width="1200" height="900" fill="#F8FAFC"/>
+  <text x="30" y="40" class="floor-label">CE Building — Second Floor (2)</text>
+  <rect x="80" y="80" width="1040" height="760" class="outer-wall" rx="4"/>
+  <rect x="80" y="410" width="1040" height="80" class="corridor"/>
+  <text x="600" y="450" class="label">Second Floor Corridor</text>
+  <!-- CE-201 AI/ML Lab -->
+  <rect x="80" y="80" width="420" height="330" class="lab"/>
+  <text x="290" y="195" class="label" style="fill:#5B21B6;">CE-201</text>
+  <text x="290" y="220" class="label" style="fill:#5B21B6;">AI / ML Lab</text>
+  <text x="290" y="245" class="sublabel">GPU Workstations · Room 201</text>
+  <text x="290" y="265" class="sublabel">Research · Postgrad</text>
+  <!-- CE-202 Project Lab -->
+  <rect x="500" y="80" width="380" height="330" class="lab"/>
+  <text x="690" y="210" class="label" style="fill:#5B21B6;">CE-202</text>
+  <text x="690" y="235" class="label" style="fill:#5B21B6;">Project Lab</text>
+  <text x="690" y="260" class="sublabel">Final Year Projects · Room 202</text>
+  <!-- CE HOD Office -->
+  <rect x="880" y="80" width="240" height="330" class="office"/>
+  <text x="1000" y="210" class="label" style="fill:#C2410C;">HOD</text>
+  <text x="1000" y="235" class="label" style="fill:#C2410C;">Office</text>
+  <text x="1000" y="260" class="sublabel">CE Dept Head</text>
+  <!-- Bottom row -->
+  <rect x="80" y="490" width="260" height="350" class="room"/>
+  <text x="210" y="640" class="label">CE-203</text>
+  <text x="210" y="665" class="label">Seminar Room</text>
+  <text x="210" y="690" class="sublabel">40 seats · Room 203</text>
+  <!-- Washroom -->
+  <rect x="340" y="490" width="160" height="350" class="room"/>
+  <text x="420" y="650" class="label">Washroom</text>
+  <text x="420" y="675" class="sublabel">🚻</text>
+  <!-- Staircase -->
+  <rect x="500" y="490" width="200" height="350" class="stair"/>
+  <text x="600" y="630" class="label">Staircase</text>
+  <text x="600" y="655" class="label">↓ 1  ↑ 3</text>
+  <text x="600" y="680" class="sublabel">🪜</text>
+  <!-- Equipment Room -->
+  <rect x="700" y="490" width="200" height="350" class="room"/>
+  <text x="800" y="650" class="label">Equipment</text>
+  <text x="800" y="675" class="label">Room</text>
+  <!-- Faculty Cabin -->
+  <rect x="900" y="490" width="220" height="350" class="office"/>
+  <text x="1010" y="640" class="label">Faculty</text>
+  <text x="1010" y="665" class="label">Cabins</text>
+</svg>

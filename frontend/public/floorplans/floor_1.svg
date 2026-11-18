@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <style>
+    .room { fill: #EFF6FF; stroke: #93C5FD; stroke-width: 2; }
+    .corridor { fill: #F0FDF4; stroke: #86EFAC; stroke-width: 1.5; }
+    .stair { fill: #FEF3C7; stroke: #FCD34D; stroke-width: 2; }
+    .label { font-family: sans-serif; font-size: 14px; fill: #1E40AF; text-anchor: middle; dominant-baseline: middle; font-weight: 600; }
+    .sublabel { font-family: sans-serif; font-size: 11px; fill: #6B7280; text-anchor: middle; dominant-baseline: middle; }
+    .floor-label { font-family: sans-serif; font-size: 20px; fill: #1D4ED8; font-weight: bold; }
+    .outer-wall { fill: none; stroke: #1E3A5F; stroke-width: 6; }
+  </style>
+  <rect width="1200" height="900" fill="#F8FAFC"/>
+  <text x="30" y="40" class="floor-label">CE Building — First Floor (1)</text>
+  <rect x="80" y="80" width="1040" height="760" class="outer-wall" rx="4"/>
+  <!-- Corridor -->
+  <rect x="80" y="410" width="1040" height="80" class="corridor"/>
+  <text x="600" y="450" class="label">First Floor Corridor</text>
+  <!-- CE-101 Networking Lab -->
+  <rect x="80" y="80" width="380" height="330" class="room"/>
+  <text x="270" y="210" class="label">CE-101</text>
+  <text x="270" y="235" class="label">Networking Lab</text>
+  <text x="270" y="260" class="sublabel">40 workstations · Room 101</text>
+  <!-- CE-102 Programming Lab -->
+  <rect x="460" y="80" width="380" height="330" class="room"/>
+  <text x="650" y="210" class="label">CE-102</text>
+  <text x="650" y="235" class="label">Programming Lab</text>
+  <text x="650" y="260" class="sublabel">Python · Java · C++ · Room 102</text>
+  <!-- CE-103 Classroom -->
+  <rect x="840" y="80" width="280" height="330" class="room"/>
+  <text x="980" y="210" class="label">CE-103</text>
+  <text x="980" y="235" class="label">Classroom</text>
+  <text x="980" y="260" class="sublabel">60 students · Room 103</text>
+  <!-- Faculty Room -->
+  <rect x="80" y="490" width="280" height="350" class="room"/>
+  <text x="220" y="650" class="label">Faculty Room</text>
+  <text x="220" y="675" class="sublabel">CE Dept Staff</text>
+  <!-- Washroom -->
+  <rect x="360" y="490" width="160" height="350" class="room"/>
+  <text x="440" y="650" class="label">Washroom</text>
+  <text x="440" y="675" class="sublabel">🚻</text>
+  <!-- Staircase -->
+  <rect x="520" y="490" width="200" height="350" class="stair"/>
+  <text x="620" y="630" class="label">Staircase</text>
+  <text x="620" y="655" class="label">↓ G  ↑ 2</text>
+  <text x="620" y="680" class="sublabel">🪜</text>
+  <!-- Storage -->
+  <rect x="720" y="490" width="200" height="350" class="room"/>
+  <text x="820" y="650" class="label">Storage</text>
+  <!-- Seminar Prep -->
+  <rect x="920" y="490" width="200" height="350" class="room"/>
+  <text x="1020" y="640" class="label">Seminar</text>
+  <text x="1020" y="665" class="label">Prep Room</text>
+</svg>

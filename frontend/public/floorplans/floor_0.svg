@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <style>
+    .wall { fill: #374151; }
+    .room { fill: #EFF6FF; stroke: #93C5FD; stroke-width: 2; }
+    .corridor { fill: #F0FDF4; stroke: #86EFAC; stroke-width: 1.5; }
+    .stair { fill: #FEF3C7; stroke: #FCD34D; stroke-width: 2; }
+    .label { font-family: sans-serif; font-size: 14px; fill: #1E40AF; text-anchor: middle; dominant-baseline: middle; font-weight: 600; }
+    .sublabel { font-family: sans-serif; font-size: 11px; fill: #6B7280; text-anchor: middle; dominant-baseline: middle; }
+    .floor-label { font-family: sans-serif; font-size: 20px; fill: #1D4ED8; font-weight: bold; }
+    .outer-wall { fill: none; stroke: #1E3A5F; stroke-width: 6; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#F8FAFC"/>
+
+  <!-- Floor label -->
+  <text x="30" y="40" class="floor-label">CE Building — Ground Floor (G)</text>
+
+  <!-- Outer building walls -->
+  <rect x="80" y="80" width="1040" height="760" class="outer-wall" rx="4"/>
+
+  <!-- Main corridor (horizontal, center) -->
+  <rect x="80" y="410" width="1040" height="80" class="corridor"/>
+  <text x="600" y="450" class="label">Main Corridor</text>
+
+  <!-- ROOMS - TOP ROW -->
+  <!-- Reception -->
+  <rect x="80" y="80" width="260" height="330" class="room"/>
+  <text x="210" y="225" class="label">Reception /</text>
+  <text x="210" y="245" class="label">Info Desk</text>
+  <text x="210" y="270" class="sublabel">(G-00)</text>
+
+  <!-- CE-G01 Lab -->
+  <rect x="340" y="80" width="380" height="330" class="room"/>
+  <text x="530" y="215" class="label">CE-G01</text>
+  <text x="530" y="240" class="label">Data Structures Lab</text>
+  <text x="530" y="265" class="sublabel">40 workstations</text>
+
+  <!-- CE-G02 Classroom -->
+  <rect x="720" y="80" width="400" height="330" class="room"/>
+  <text x="920" y="215" class="label">CE-G02</text>
+  <text x="920" y="240" class="label">Classroom</text>
+  <text x="920" y="265" class="sublabel">Capacity: 60 students</text>
+
+  <!-- ROOMS - BOTTOM ROW -->
+  <!-- Store Room -->
+  <rect x="80" y="490" width="200" height="350" class="room"/>
+  <text x="180" y="650" class="label">Store</text>
+  <text x="180" y="675" class="label">Room</text>
+
+  <!-- Washroom -->
+  <rect x="280" y="490" width="200" height="350" class="room"/>
+  <text x="380" y="650" class="label">Washroom</text>
+  <text x="380" y="675" class="sublabel">🚻</text>
+
+  <!-- Staircase -->
+  <rect x="480" y="490" width="200" height="350" class="stair"/>
+  <text x="580" y="640" class="label">Staircase</text>
+  <text x="580" y="665" class="label">↑ Floor 1</text>
+  <text x="580" y="690" class="sublabel">🪜</text>
+
+  <!-- Faculty Waiting -->
+  <rect x="680" y="490" width="260" height="350" class="room"/>
+  <text x="810" y="640" class="label">Faculty</text>
+  <text x="810" y="665" class="label">Waiting Area</text>
+
+  <!-- Notice Board / Entrance area -->
+  <rect x="940" y="490" width="180" height="350" class="room"/>
+  <text x="1030" y="640" class="label">Notice</text>
+  <text x="1030" y="665" class="label">Board</text>
+
+  <!-- Entrance door indicator -->
+  <rect x="540" y="820" width="120" height="20" fill="#1D4ED8"/>
+  <text x="600" y="870" class="label" style="fill:#1D4ED8;font-size:13px;">← ENTRANCE →</text>
+
+  <!-- Grid lines for indoor_x/indoor_y reference -->
+  <text x="80" y="895" class="sublabel" style="font-size:10px;">X=0</text>
+  <text x="1140" y="895" class="sublabel" style="font-size:10px;">X=100</text>
+</svg>
